@@ -1,0 +1,45 @@
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  background-color: green;
+  position: relative;
+}
+.mainLayout .ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+.headerApp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerIcon-holder {
+  display: flex;
+}
+.header-list nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.header-list nav ul li {
+  font-size: 16px;
+}
+.header-list nav ul li {
+  margin: 0 10px 0 10px;
+}
+.headerIcon-holder .Icon {
+  color: rgb(54, 175, 175);
+  font-size: 24px;
+  margin-right: 5px;
+}
+.headerIcon-holder h2 {
+  font-weight: 400;
+}
+.header-list nav ul li a {
+  color: #000;
+}
