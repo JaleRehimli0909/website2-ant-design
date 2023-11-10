@@ -33,7 +33,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="About">
+    <div id="about" className="About">
       <div className="container">
         <div className="About-content">
           <h2>About Us</h2>

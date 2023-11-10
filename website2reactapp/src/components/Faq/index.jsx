@@ -83,7 +83,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="Faq">
+    <div id="faq" className="Faq">
       <div className="container">
         <h2>Frequently Asked Questions</h2>
         <Collapse items={items} defaultActiveKey={["1"]} onChange={onChange} />

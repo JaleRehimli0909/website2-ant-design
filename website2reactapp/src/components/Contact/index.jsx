@@ -6,7 +6,7 @@ const { TextArea } = Input;
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div id="contact" className="Contact">
       <div className="container">
         <h2>Get in Touch</h2>
         <Form

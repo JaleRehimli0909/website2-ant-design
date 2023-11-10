@@ -15,7 +15,7 @@ const Works = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className="Works">
+    <div id="works" className="Works">
       <div className="container">
         <div className="Works-content">
           <h2>How it works</h2>

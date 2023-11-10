@@ -47,7 +47,7 @@ const data = [
 
 const Pricing = () => {
   return (
-    <div className="Pricing">
+    <div id="pricing" className="Pricing">
       <div className="container">
         <h2>Choose a plan to fit your needs</h2>
 

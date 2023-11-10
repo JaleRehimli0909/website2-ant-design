@@ -12,7 +12,7 @@ const { Meta } = Card;
 
 const Features = () => {
   return (
-    <div className="Features">
+    <div id="features" className="Features">
       <div className="container">
         <h2>Key Features and Benefits</h2>
         <Row gutter={[24, 24]}>

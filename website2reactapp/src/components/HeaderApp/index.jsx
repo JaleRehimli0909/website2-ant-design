@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
-import { Row, Col } from "antd";
+import { Row, Col, Anchor } from "antd";
 import { ThunderboltOutlined } from "@ant-design/icons";
+
+const { Link } = Anchor;
 
 const HeaderApp = () => {
   return (
@@ -12,7 +14,19 @@ const HeaderApp = () => {
           <h2>TECH</h2>
         </Col>
         <Col span={12} className="header-list">
-          <nav>
+          <div className="mobileHidden">
+            <Anchor targetOffset="65" direction="horizontal">
+              <Link href="#home" title="Home" />
+              <Link href="#about" title="About" />
+              <Link href="#features" title="Features" />
+              <Link href="#works" title="How it works" />
+              <Link href="#faq" title="FAQ" />
+              <Link href="#pricing" title="Pricing" />
+              <Link href="#contact" title="Contact" />
+            </Anchor>
+          </div>
+
+          {/* <nav>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -36,7 +50,7 @@ const HeaderApp = () => {
                 <a href="#">Contact</a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </Col>
       </Row>
     </div>
