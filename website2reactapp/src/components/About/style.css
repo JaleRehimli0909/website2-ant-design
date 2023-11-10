@@ -1,5 +1,15 @@
 .About {
   padding: 40px 0;
+  position: relative;
+  background-color: #fff;
+}
+.About::after {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  bottom: 0;
+  left: -999px;
+  right: -999px;
+  position: absolute;
 }
 .About .About-content {
   text-align: center;
