@@ -1,0 +1,27 @@
+.ant-layout-footer {
+  background-color: #000;
+}
+.FooterApp {
+  padding: 40px 0;
+  color: #fff;
+}
+.Footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-logo {
+  display: flex;
+}
+.Footer-logo .Icon {
+  color: rgb(54, 175, 175);
+  font-size: 30px;
+}
+.Footer-logo h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.Footer-socials .footer-icon{
+    font-size: 20px;
+}

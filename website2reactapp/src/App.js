@@ -8,6 +8,7 @@ import Works from "./components/Works";
 import Faq from "./components/Faq";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
+import FooterApp from "./components/FooterApp";
 const { Header, Footer, Content } = Layout;
 
 function App() {
@@ -27,7 +28,9 @@ function App() {
           <Contact />
     
       </Content>
-      <Footer>Footer</Footer>
+      <Footer>
+        <FooterApp/>
+      </Footer>
     </Layout>
   );
 }
