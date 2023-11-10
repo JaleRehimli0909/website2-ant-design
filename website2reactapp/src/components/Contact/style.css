@@ -1,0 +1,20 @@
+.Contact {
+  padding: 40px 0;
+}
+
+.Contact h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Contact .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.Contact .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
