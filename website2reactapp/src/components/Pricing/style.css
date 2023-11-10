@@ -1,0 +1,27 @@
+.Pricing {
+  padding: 40px 0;
+}
+.Pricing h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.Pricing .ant-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Pricing .ant-row > div:nth-child(2) .ant-list-item {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 1;
+}
+.ant-list .ant-list-items {
+  display: flex;
+}
+.pricing-title {
+  font-size: 38px;
+}

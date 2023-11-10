@@ -1,9 +1,8 @@
 import React from "react";
 import "./style.css";
 
-import { Collapse,Button } from "antd";
-import {RedEnvelopeOutlined} from '@ant-design/icons';
-
+import { Collapse, Button } from "antd";
+import { RedEnvelopeOutlined } from "@ant-design/icons";
 
 const items = [
   {
@@ -86,7 +85,6 @@ const Faq = () => {
   return (
     <div className="Faq">
       <div className="container">
-    
         <h2>Frequently Asked Questions</h2>
         <Collapse items={items} defaultActiveKey={["1"]} onChange={onChange} />
 
@@ -98,14 +96,12 @@ const Faq = () => {
             and resolve any issues. Trust us to make your experience stress-free
             and enjoyable.
           </p>
-          <Button size="large" type="primary" icon={<RedEnvelopeOutlined /> }>
-      Email your question
-      </Button>
-
-        </div>
+          <Button size="large" type="primary" icon={<RedEnvelopeOutlined />}>
+            Email your question
+          </Button>
         </div>
       </div>
-  
+    </div>
   );
 };
 
