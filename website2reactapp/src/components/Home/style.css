@@ -1,0 +1,54 @@
+.homeApp {
+  background: url("../../assets/images/bg-hero.jpg") no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.homeApp .ant-carousel,
+.homeApp .ant-carousel div {
+  height: 100%;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.homeApp .homeApp-content {
+  max-width: 640px;
+  height: auto !important;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  transform: translate(-50% -50%);
+}
+
+.homeApp-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.homeApp-content p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.homeApp .homeApp-buttons {
+  height: auto !important;
+  margin-top: 50px;
+  display: flex;
+}
+
+.homeApp-buttons Button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeApp-buttons .button {
+  margin-right: 10px;
+}
+.ant-carousel .slick-dots-bottom {
+  bottom: 12px;
+}

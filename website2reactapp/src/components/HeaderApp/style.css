@@ -2,20 +2,23 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
-  background-color: green;
-  position: relative;
 }
 .mainLayout .ant-layout-header {
   background: #f8f8f8;
   padding: 0;
   height: auto;
   line-height: 1.6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .headerApp {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .headerIcon-holder {
   display: flex;
