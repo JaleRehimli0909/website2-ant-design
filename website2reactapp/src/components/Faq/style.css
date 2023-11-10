@@ -1,0 +1,29 @@
+.Faq {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.Faq h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faq-bottom {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 740px;
+  text-align: center;
+}
+.faq-bottom h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.faq-bottom p {
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+.faq-bottom Button {
+  font-weight: 600;
+}
