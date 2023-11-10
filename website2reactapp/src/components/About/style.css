@@ -1,0 +1,32 @@
+.About {
+  padding: 40px 0;
+}
+.About .About-content {
+  text-align: center;
+}
+.About .About-content h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.About .About-content p {
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+.aboutBottom-content {
+  text-align: center;
+  margin: 50px 0;
+}
+.aboutBottom-content .aboutIcon {
+  font-size: 50px;
+  color: #1890ff;
+}
+.aboutBottom-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.aboutBottom-content p {
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
