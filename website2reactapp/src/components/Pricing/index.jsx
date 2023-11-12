@@ -54,9 +54,9 @@ const Pricing = () => {
         <List
           grid={{
             gutter: 6,
-            // xs: 1,
-            // sm: 1,
-            // md: 3,
+            xs: 1,
+            sm: 1,
+            md: 3,
             lg: 3,
             xl: 3,
             xxl: 3,
@@ -67,9 +67,9 @@ const Pricing = () => {
             <List.Item>
               <Card
                 title={item.title}
-                style={{
-                  width: 350,
-                }}
+                // style={{
+                //   width: 350,
+                // }}
               >
                 <p className="pricing-title">{item.content[0].price}</p>
                 <p>{item.content[0].space}</p>

@@ -46,3 +46,30 @@
 .header-list nav ul li a {
   color: #000;
 }
+
+.mobileHidden {
+  display: block;
+}
+.mobileVisible {
+  text-align: end;
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .Pricing .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1.14);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Pricing .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1);
+  }
+
+  .mobileVisible {
+    display: block;
+  }
+  
+  .mobileHidden {
+    display: none;
+  }
+}

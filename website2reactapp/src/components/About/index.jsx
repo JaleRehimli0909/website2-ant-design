@@ -50,10 +50,10 @@ const About = () => {
             better future for all of us.
           </p>
         </div>
-        <Row gutter={[24, 24]}>
+        <Row gutter={[16, 16]}>
           {items.map((item) => {
             return (
-              <Col key={item.key} span={8} className="aboutBottom-content">
+              <Col key={item.key} md={{ span: 8 }} className="aboutBottom-content">
                 {/* <PieChartOutlined className="aboutIcon"/> */}
                 <div className="aboutIcon">{item.icon}</div>
                 <h3> {item.title}</h3>

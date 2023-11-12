@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
-import { Row, Col, Anchor } from "antd";
-import { ThunderboltOutlined } from "@ant-design/icons";
+import { Button, Drawer, Row, Col, Anchor } from "antd";
+import { ThunderboltOutlined, MenuOutlined } from "@ant-design/icons";
 
 const { Link } = Anchor;
 
 const HeaderApp = () => {
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
   return (
     <div className="container">
       <Row className="headerApp">
@@ -14,6 +21,28 @@ const HeaderApp = () => {
           <h2>TECH</h2>
         </Col>
         <Col span={12} className="header-list">
+
+          <div className="mobileVisible">
+            <Button type="primary" onClick={showDrawer}>
+              <MenuOutlined  className="Icon"/>
+            </Button>
+            <Drawer
+              title="Tech"
+              placement="right"
+              onClose={onClose}
+              open={open}
+            >
+              <Anchor targetOffset="65" direction="vertical">
+                <Link href="#home" title="Home" />
+                <Link href="#about" title="About" />
+                <Link href="#features" title="Features" />
+                <Link href="#works" title="How it works" />
+                <Link href="#faq" title="FAQ" />
+                <Link href="#pricing" title="Pricing" />
+                <Link href="#contact" title="Contact" />
+              </Anchor>
+            </Drawer>
+          </div>
           <div className="mobileHidden">
             <Anchor targetOffset="65" direction="horizontal">
               <Link href="#home" title="Home" />
